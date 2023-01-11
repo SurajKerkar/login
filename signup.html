@@ -56,19 +56,25 @@
 
 <body class="text-center">
 
-    <form class="form-signin" action="/" method="post">
-        <img class="mb-4" src="https://getbootstrap.com/docs/4.6/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-        <h1 class="h3 mb-3 font-weight-normal">Signup to My Newsletter</h1>
+   <form class="form-signin" action="/" method="post">
+        <!-- <img class="mb-4" src="https://getbootstrap.com/docs/4.6/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72"> -->
+        <img class="mb-4" src="https://themewagon.github.io/laundry/assets/img/icon/services-icon3.svg" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Signup to My Service App</h1>
         
-        <input type="text top" name="fName" class="form-control" placeholder="Enter Name" required autofocus>
+        <!-- <label for="exampleInputName">Name</label> -->
+        <input type="text top" name="fName" id="exampleInputName" class="form-control mb-3" placeholder="Enter Name" required autofocus>
         
-        <input type="text middle" name="lName" class="form-control" placeholder="Last Name" required>
+        <!-- <label for="exampleInputLastName">Last Name</label> -->
+        <input type="text middle" id="exampleInputLastName" name="lName" class="form-control mb-3" placeholder="Last Name" required>
 
-        <input type="email bottom" name="email" class="form-control" placeholder="Email address" required >
+        <!-- <label for="exampleInputEmail1">Email address</label> -->
+        <input type="email bottom" id="exampleInputEmail1" name="email" class="form-control" placeholder="Email address" required >
         
         
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Me Up!</button>
+        <button class="btn btn-lg btn-primary btn-block mt-3" type="submit">Sign Me Up!</button>
         <p class="mt-5 mb-3 text-muted">&copy; The Service App</p>
+
+        
     </form>
 
 
